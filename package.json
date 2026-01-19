@@ -5,6 +5,10 @@
     "builder",
     "userscript"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FilteringDev/lottery-mobile-bypass.git"
+  },
   "scripts": {
     "build": "npm run build -w builder"
   },
