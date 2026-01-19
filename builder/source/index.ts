@@ -14,6 +14,7 @@ Banner += `\n// @version    ${(await PackageJson.load(ProjectRoot)).content.vers
 Banner += '\n// @match      *://dhlottery.co.kr/*'
 Banner += '\n// @match      *://*.dhlottery.co.kr/*'
 Banner += '\n// @grant      unsafeWindow'
+Banner += '\n// @run-at      document-start'
 Banner += '\n// @downloadURL https://cdn.jsdelivr.net/npm/@filteringdev/lottery-mobile-bypass@latest/dist/lottery-mobile-bypass.user.js'
 Banner += '\n// @updateURL   https://cdn.jsdelivr.net/npm/@filteringdev/lottery-mobile-bypass@latest/dist/lottery-mobile-bypass.user.js'
 Banner += '\n// ==/UserScript=='
