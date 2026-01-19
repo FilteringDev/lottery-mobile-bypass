@@ -1,4 +1,8 @@
 {
-  "name": "@username/packagename-userscript",
-  "private": true
+  "name": "@filteringdev/lottery-mobile-bypass-userscript",
+  "private": true,
+  "dependencies": {
+    "@types/web": "^0.0.318"
+  },
+  "type": "module"
 }

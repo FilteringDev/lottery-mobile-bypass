@@ -1,4 +1,17 @@
 {
-  "name": "@username/packagename-builder",
-  "private": true
+  "name": "@filteringdev/lottery-mobile-bypass-builder",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsx source/index.ts"
+  },
+  "dependencies": {
+    "@npmcli/package-json": "^7.0.4",
+    "@types/node": "^25.0.9",
+    "esbuild": "^0.27.2",
+    "tsx": "^4.21.0"
+  },
+  "devDependencies": {
+    "@types/npmcli__package-json": "^4.0.4"
+  }
 }

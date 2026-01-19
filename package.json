@@ -1,8 +1,14 @@
 {
-  "name": "@username/packagename",
+  "name": "@filteringdev/lottery-mobile-bypass",
   "version": "0.0.0",
   "workspaces": [
     "builder",
     "userscript"
+  ],
+  "scripts": {
+    "build": "npm run build -w builder"
+  },
+  "files": [
+    "dist/**/*"
   ]
 }
