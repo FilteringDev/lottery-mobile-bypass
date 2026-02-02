@@ -2,7 +2,7 @@
   "name": "@filteringdev/lottery-mobile-bypass-userscript",
   "private": true,
   "dependencies": {
-    "@types/web": "^0.0.318"
+    "@types/web": "^0.0.325"
   },
   "type": "module"
 }
